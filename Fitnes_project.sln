@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitness_BL", "Fitness_BL\Fitness_BL.csproj", "{B35E4329-99F8-437E-B3F2-685B0B215FF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness_BL", "Fitness_BL\Fitness_BL.csproj", "{B35E4329-99F8-437E-B3F2-685B0B215FF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitness_CMD", "Fitness_CMD\Fitness_CMD.csproj", "{FCB6815A-E91E-4C90-AE10-3AAE650E766A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness_CMD", "Fitness_CMD\Fitness_CMD.csproj", "{FCB6815A-E91E-4C90-AE10-3AAE650E766A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{71089F74-0C8C-4FEF-B4EE-8DBC0737DF4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitness_BLTests", "Fitness_BLTests\Fitness_BLTests.csproj", "{912E7C70-9BF3-43D5-8AEF-59F7BC97243B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{FCB6815A-E91E-4C90-AE10-3AAE650E766A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCB6815A-E91E-4C90-AE10-3AAE650E766A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCB6815A-E91E-4C90-AE10-3AAE650E766A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71089F74-0C8C-4FEF-B4EE-8DBC0737DF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71089F74-0C8C-4FEF-B4EE-8DBC0737DF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71089F74-0C8C-4FEF-B4EE-8DBC0737DF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71089F74-0C8C-4FEF-B4EE-8DBC0737DF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912E7C70-9BF3-43D5-8AEF-59F7BC97243B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912E7C70-9BF3-43D5-8AEF-59F7BC97243B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912E7C70-9BF3-43D5-8AEF-59F7BC97243B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912E7C70-9BF3-43D5-8AEF-59F7BC97243B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
