@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitness_BL", "Fitness_BL\Fitness_BL.csproj", "{B35E4329-99F8-437E-B3F2-685B0B215FF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitness_CMD", "Fitness_CMD\Fitness_CMD.csproj", "{FCB6815A-E91E-4C90-AE10-3AAE650E766A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35E4329-99F8-437E-B3F2-685B0B215FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35E4329-99F8-437E-B3F2-685B0B215FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35E4329-99F8-437E-B3F2-685B0B215FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35E4329-99F8-437E-B3F2-685B0B215FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB6815A-E91E-4C90-AE10-3AAE650E766A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB6815A-E91E-4C90-AE10-3AAE650E766A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB6815A-E91E-4C90-AE10-3AAE650E766A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB6815A-E91E-4C90-AE10-3AAE650E766A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
